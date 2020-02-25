@@ -1,0 +1,15 @@
+<p>Sample application for CRUD operations</p>
+
+<div><label>Product Name</label></div>
+<input type="text" [(ngModel)]="productName">
+<div><label>Tags</label></div>
+<input type="text" [(ngModel)]="tags">
+<div><label>Product Category</label></div>
+<input type="text" [(ngModel)]="productCategory">
+<div><label>Available Stock</label></div>
+<input type="number" [(ngModel)]="availablestock">
+<button (click)="Add()">Add</button>
+<div><label>Please enter ProductID</label></div>
+<input type="text" [(ngModel)]="productID">
+<button (click)="Delete()">Delete</button>
+
